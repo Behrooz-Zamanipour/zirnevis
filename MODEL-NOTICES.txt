@@ -1,0 +1,22 @@
+TRANSLATION MODEL
+NLLB-200 distilled 600M, AI at Meta / NLLB Team, 2022.
+Original: https://huggingface.co/facebook/nllb-200-distilled-600M
+Paper: No Language Left Behind: Scaling Human-Centered Machine Translation
+https://arxiv.org/abs/2207.04672
+License: Creative Commons Attribution-NonCommercial 4.0 International
+https://creativecommons.org/licenses/by-nc/4.0/
+The license permits personal, noncommercial use. The model is not a
+certified translator and its output needs review.
+
+Data-only CTranslate2 int8 conversion by JustFrederik:
+https://huggingface.co/JustFrederik/nllb-200-distilled-600M-ct2-int8
+Pinned revision: 302d78f00e6fdb50a1064059df7c392b735e9d05
+Changes from original: conversion and int8 quantization.
+
+SPEECH MODEL
+OpenAI Whisper small, converted by SYSTRAN / faster-whisper.
+https://github.com/openai/whisper
+https://huggingface.co/Systran/faster-whisper-small
+MIT License. See upstream repositories and model files for notices.
+
+The studio itself does not download or execute remote Python model code.

@@ -1,0 +1,12 @@
+fastapi==0.162.0
+uvicorn==0.54.0
+faster-whisper==1.2.1
+av==18.1.0
+sentencepiece==0.2.2
+yt-dlp[default]==2026.10.26
+imageio-ffmpeg==0.7.0
+requests==2.34.2
+filelock==4.2.6
+Send2Trash==2.1.0
+pywin32==312; sys_platform == 'win32'
+ctranslate2==4.8.4
